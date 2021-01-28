@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.site.jupitermouse</groupId>
+        <artifactId>kettle-lineage-collector</artifactId>
+        <version>9.2.0.0-66</version>
+    </parent>
+
+    <groupId>kettle-lineage-collector</groupId>
+    <artifactId>assemblies</artifactId>
+    <version>9.2.0.0-66</version>
+
+    <packaging>pom</packaging>
+
+    <name>PDI Collector Plugin Assemblies</name>
+
+    <modules>
+        <module>plugin</module>
+    </modules>
+</project>
